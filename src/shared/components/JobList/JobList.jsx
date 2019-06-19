@@ -7,6 +7,7 @@ import '../JobSearch/JobSearch.css'
 
 const JobList = () => {
   const [jobs, setJobs] = useState([])
+  const [totals, setTotals] = useState('')
   const [search, setSearch] = useState('')
   const [query, setQuery] = useState('system')
 
@@ -22,6 +23,8 @@ const JobList = () => {
     console.log('All data >>>>>', data)
     setJobs(data.data.jobs)
     console.log(data.data.jobs)
+    setTotals(data.data.total_num)
+    console.log(data.data.total_num)
   }
 
   const updateSearch = e => {
@@ -52,7 +55,7 @@ const JobList = () => {
       </form>
 
       <div className="content">
-        <div className="found-job">1321 jobs found</div>
+        <div className="found-job">{totals} jobs found</div>
         {
           jobs.map(job => (
             <JobItem
