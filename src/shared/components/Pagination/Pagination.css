@@ -1,0 +1,13 @@
+.pagination {
+    display: inline-block;
+  }
+  .pagination a {
+    color: #353535;
+    float: left;
+    padding: 8px 19px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    color: #2379ea;
+    border-radius: 5px;
+  }

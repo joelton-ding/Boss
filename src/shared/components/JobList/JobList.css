@@ -1,0 +1,88 @@
+.content {
+    padding: 20px;
+  }
+  .found-job {
+    color: #484848;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  .job-list {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  .flex-container > div {
+    color: #484848;
+    width: 100px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .flex-container .title {
+    flex-grow: 1;
+    margin-left: 0;
+    text-align: left;
+  }
+  .flex-container .price {
+    flex-grow: 1;
+    margin-right: 0;
+    text-align: right;
+  }
+  .job-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 15px 0;
+  }
+  .job-table tr td:first-child {
+    padding-left: 0;
+  }
+  .job-table tr td {
+    margin: 0;
+    padding: 3px;
+    font-size: 11px;
+  }
+  .job-table tr td .icon {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .job-table tr td .detail {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .flex-bottom {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-bottom > div {
+    color: #484848;
+    width: 80px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .flex-bottom .logo {
+    margin-left: 0;
+    text-align: left;
+  }
+  .flex-bottom .logo img { 
+    width: 80px;
+    height: 80px;
+  }
+  .flex-bottom .companyName {
+    flex-grow: 1;
+    margin-right: 0;
+    text-align: left;
+  }
+  .flex-bottom .hour {
+    flex-grow: 1;
+    margin-right: 0;
+    text-align: right;
+    color: #d4d4d4;
+  }

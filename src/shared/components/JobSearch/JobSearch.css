@@ -1,0 +1,53 @@
+.container {
+    background: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 7px 0px;
+    padding: 10px 20px;
+  }
+  .search-input {
+    position: relative;
+  }
+  input[type="text"] {
+    width: 100%;
+    border-top: 0;
+    border-bottom: 1px solid #dedede;
+    border-left: 0;
+    border-right: 0;
+    margin: 8px 0 0 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background: #f9f9f9;
+  }
+  input[type="text"]:focus {
+    border-color: dodgerBlue;
+  }
+  .search-input input[type="text"] {
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .search-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  .filter-wrapper {
+    padding: 26px 0 16px 0;
+  }
+  .filter-wrapper button {
+    width: 100%;
+    border: 1px solid #3683eb;
+    padding: 10px;
+    text-align: center;
+    color: #428ceb;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+  }
